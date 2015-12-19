@@ -1,0 +1,13 @@
+{
+  "name": "Adfly and Linkbucks Blocker",
+  "description": "Skips Adfly's and Linkbucks' ads. Finds the next url in the original url and redirects to it.",
+  "version": "1.0.5",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "webRequest",
+    "*://*.linkbucks.com/*",
+    "*://adf.ly/*",
+    "webRequestBlocking"
+  ]
+}
